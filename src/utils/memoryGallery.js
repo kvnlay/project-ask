@@ -15,14 +15,14 @@ export function createMemoryCard(memory, index) {
 export const memories = [
     { 
         img: 'https://lh3.googleusercontent.com/d/1TG2rANxPpfvu9L0zEu6hs7uV_yEMROFF', 
-        text: 'Amsterdam' 
+        text: 'Portugal ❤️' 
     },
     { 
         img: 'https://lh3.googleusercontent.com/d/1grurhiwVlAjXjDcVuyQl_oWW6D-UXnN-', 
-        text: 'Beautiful Moments' 
+        text: 'Beautiful Moments 💖' 
     },
     { 
         img: 'https://lh3.googleusercontent.com/d/1LkRjkauY5DA0hxw9w06Rnjmu7oj3YZC5', 
-        text: 'Our wins' 
+        text: 'Our wins 🥇' 
     }
 ];
