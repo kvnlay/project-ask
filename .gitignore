@@ -1,0 +1,5 @@
+/node_modules
+/dist
+
+# Ignore all files in the .gitignore file
+
