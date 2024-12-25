@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Question</title>
+  <script type="module" crossorigin src="/assets/index-BM2c_d90.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-COc4dHZ8.css">
+</head>
+<body>
+    <div id="app" class="min-h-screen flex flex-col items-center justify-center p-4">
+        <!-- Initial Message -->
+        <div id="initial-message" class="text-center mb-8 glass-effect p-6 rounded-lg">
+            <h1 class="text-4xl md:text-6xl font-bold text-pink-600 mb-4">Hey Omolarami ❤️</h1>
+            <p class="text-xl md:text-2xl text-gray-700 typing-text"></p>
+        </div>
+
+        <!-- Memory Gallery -->
+        <div id="memory-gallery" class="hidden grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-8">
+            <!-- Images will be added via JavaScript -->
+        </div>
+
+        <!-- Final Question -->
+        <div id="final-question" class="hidden text-center glass-effect p-8 rounded-lg">
+            <h2 class="text-3xl md:text-4xl font-bold text-pink-600 mb-6">Will you be my girlfriend?</h2>
+            <div class="space-x-4">
+                <button id="yes-btn" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full transform hover:scale-110 transition-all">
+                    Yes! ❤️
+                </button>
+                <button id="no-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-700 font-bold py-3 px-8 rounded-full transform hover:translate-x-8 transition-all">
+                    No
+                </button>
+            </div>
+        </div>
+
+        <!-- Celebration -->
+        <div id="celebration" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="glass-effect p-8 rounded-lg text-center">
+                <h2 class="text-4xl font-bold text-pink-600 mb-4">🎉 Yay! 🎉</h2>
+                <p class="text-xl text-gray-700">You've made me the happiest person alive!</p>
+                <div id="hearts-container" class="fixed inset-0 pointer-events-none"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
