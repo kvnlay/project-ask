@@ -32,7 +32,7 @@ const typed = new Typed('.typing-text', {
 // Memory Gallery
 function showMemoryGallery() {
     const gallery = document.getElementById('memory-gallery');
-    gallery.classList.remove('hidden');
+    // gallery.classList.remove('hidden');
     
     memories.forEach((memory, index) => {
         const card = createMemoryCard(memory, index);
